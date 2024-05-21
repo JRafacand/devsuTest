@@ -1,0 +1,19 @@
+{
+  "name": "testdevsu",
+  "version": "1.0.0",
+  "description": "Test Devsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "report": "cypress run && node cypress/settings/reportConfig.js"
+  },
+  "author": "JRafaCand",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "cypress": "^13.9.0",
+    "cypress-craft": "^1.3.3-alpha.1",
+    "cypress-webpack-preprocessor-v5": "^5.0.0-alpha.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  }
+}
